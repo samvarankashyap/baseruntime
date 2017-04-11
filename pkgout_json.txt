@@ -1,0 +1,4144 @@
+[
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:01:15.740932", 
+            "completion_ts": 1489597275.74093, 
+            "create_time": "2017-03-15 16:40:58.134703", 
+            "create_ts": 1489596058.1347, 
+            "host_id": 85, 
+            "id": 18399829, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/ncurses?#7750f0de472f697700b7e92e0a4b9cd68b85f42f", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "ncurses", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:40:58.320765", 
+            "start_ts": 1489596058.32077, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "ncurses-libs", 
+            "release": "8.20170212.module_60a31d5b", 
+            "source_rpm": "ncurses-6.0-8.20170212.module_60a31d5b.src.rpm", 
+            "version": "6.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:02:04.911341", 
+            "completion_ts": 1489593724.91134, 
+            "create_time": "2017-03-15 15:50:54.720732", 
+            "create_ts": 1489593054.72073, 
+            "host_id": 115, 
+            "id": 18399136, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss-softokn?#f37b8b36250db04db8cc8c5d9faad80020b497d6", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss-softokn", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:50:56.527704", 
+            "start_ts": 1489593056.5277, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss-softokn", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nss-softokn-3.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "3.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:29:14.541379", 
+            "completion_ts": 1489588154.54138, 
+            "create_time": "2017-03-15 14:23:10.83173", 
+            "create_ts": 1489587790.83173, 
+            "host_id": 85, 
+            "id": 18396306, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libpwquality?#9bf5174c3324e63969c676415890a1a1c8aca5f6", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libpwquality", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:23:12.37184", 
+            "start_ts": 1489587792.37184, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libpwquality", 
+            "release": "8.module_60a31d5b", 
+            "source_rpm": "libpwquality-1.3.0-8.module_60a31d5b.src.rpm", 
+            "version": "1.3.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:02:48.987596", 
+            "completion_ts": 1489590168.9876, 
+            "create_time": "2017-03-15 14:47:57.409015", 
+            "create_ts": 1489589277.40901, 
+            "host_id": 71, 
+            "id": 18396776, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/util-linux?#04f1d57f74fd4738d2c462a2302031bc92a186b9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "util-linux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:59.926971", 
+            "start_ts": 1489589279.92697, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "util-linux", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "util-linux-2.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "2.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:54:27.26244", 
+            "completion_ts": 1489593267.26244, 
+            "create_time": "2017-03-15 15:37:35.779802", 
+            "create_ts": 1489592255.7798, 
+            "host_id": 125, 
+            "id": 18398780, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libgcrypt?#396c70cd7ad79ee8d8bd672f4fbc3cc4f04fb8d7", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libgcrypt", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:37:38.432959", 
+            "start_ts": 1489592258.43296, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libgcrypt", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libgcrypt-1.7.6-2.module_60a31d5b.src.rpm", 
+            "version": "1.7.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:26:02.089791", 
+            "completion_ts": 1489602362.08979, 
+            "create_time": "2017-03-15 18:03:01.203707", 
+            "create_ts": 1489600981.20371, 
+            "host_id": 154, 
+            "id": 18401329, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libdb?#607172865e43570dde11c1f49de14474f47e837a", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libdb", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:03:02.000723", 
+            "start_ts": 1489600982.00072, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libdb-utils", 
+            "release": "17.module_60a31d5b", 
+            "source_rpm": "libdb-5.3.28-17.module_60a31d5b.src.rpm", 
+            "version": "5.3.28"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:47:27.553831", 
+            "completion_ts": 1489603647.55383, 
+            "create_time": "2017-03-15 18:41:27.699095", 
+            "create_ts": 1489603287.6991, 
+            "host_id": 77, 
+            "id": 18401750, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libksba?#343c435d424b7cfded4a8c3fb94e86ca18771109", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libksba", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:41:30.818705", 
+            "start_ts": 1489603290.81871, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libksba", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "libksba-1.3.5-3.module_60a31d5b.src.rpm", 
+            "version": "1.3.5"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:24:50.781075", 
+            "completion_ts": 1489587890.78108, 
+            "create_time": "2017-03-15 14:17:20.430147", 
+            "create_ts": 1489587440.43015, 
+            "host_id": 235, 
+            "id": 18395936, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss-pem?#e8ff71cf47d16d14ed242a4054ec414fb797f873", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss-pem", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:17:20.684236", 
+            "start_ts": 1489587440.68424, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss-pem", 
+            "release": "4.module_60a31d5b", 
+            "source_rpm": "nss-pem-1.0.2-4.module_60a31d5b.src.rpm", 
+            "version": "1.0.2"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:33:08.129402", 
+            "completion_ts": 1489588388.1294, 
+            "create_time": "2017-03-15 14:29:18.241055", 
+            "create_ts": 1489588158.24106, 
+            "host_id": 158, 
+            "id": 18396546, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/basesystem?#e4a05b3ab23f2972f922ec38527b7c923ed4154c", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "basesystem", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:29:19.468308", 
+            "start_ts": 1489588159.46831, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "basesystem", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "basesystem-11-3.module_60a31d5b.src.rpm", 
+            "version": "11"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:57:36.908188", 
+            "completion_ts": 1489589856.90819, 
+            "create_time": "2017-03-15 14:50:46.56688", 
+            "create_ts": 1489589446.56688, 
+            "host_id": 226, 
+            "id": 18396870, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/attr?#deabbc4e2a74e993af0be267b13c431a3ace0558", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "attr", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:50:47.182937", 
+            "start_ts": 1489589447.18294, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libattr", 
+            "release": "18.module_60a31d5b", 
+            "source_rpm": "attr-2.4.47-18.module_60a31d5b.src.rpm", 
+            "version": "2.4.47"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:48:22.210716", 
+            "completion_ts": 1489600102.21072, 
+            "create_time": "2017-03-15 17:35:24.569038", 
+            "create_ts": 1489599324.56904, 
+            "host_id": 79, 
+            "id": 18401030, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/texinfo?#6f9737e6acfc74b4484deff8500cedd3aea890a6", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "texinfo", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:35:26.257762", 
+            "start_ts": 1489599326.25776, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "info", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "texinfo-6.3-2.module_60a31d5b.src.rpm", 
+            "version": "6.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:47:31.66877", 
+            "completion_ts": 1489589251.66877, 
+            "create_time": "2017-03-15 14:44:28.966031", 
+            "create_ts": 1489589068.96603, 
+            "host_id": 75, 
+            "id": 18396707, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/ca-certificates?#c1c275770a923610511be57f74b3a4468d0112a9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "ca-certificates", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:44:29.642915", 
+            "start_ts": 1489589069.64292, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "ca-certificates", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "ca-certificates-2017.2.11-5.module_60a31d5b.src.rpm", 
+            "version": "2017.2.11"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:17:04.071901", 
+            "completion_ts": 1489598224.0719, 
+            "create_time": "2017-03-15 17:10:11.953463", 
+            "create_ts": 1489597811.95346, 
+            "host_id": 227, 
+            "id": 18400794, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/expat?#9af336b7b5c64a6c66fa1d094747e1c307c73c7f", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "expat", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:10:18.380047", 
+            "start_ts": 1489597818.38005, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "expat", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "expat-2.2.0-2.module_60a31d5b.src.rpm", 
+            "version": "2.2.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:33:35.731093", 
+            "completion_ts": 1489592015.73109, 
+            "create_time": "2017-03-15 15:26:40.504191", 
+            "create_ts": 1489591600.50419, 
+            "host_id": 111, 
+            "id": 18398402, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/lua?#b7447739b8d3a722a2d8e7305690b6ac3c548882", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "lua", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:26:43.63875", 
+            "start_ts": 1489591603.63875, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "lua-libs", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "lua-5.3.4-1.module_60a31d5b.src.rpm", 
+            "version": "5.3.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:48:42.077559", 
+            "completion_ts": 1489596522.07756, 
+            "create_time": "2017-03-15 16:46:35.924902", 
+            "create_ts": 1489596395.9249, 
+            "host_id": 135, 
+            "id": 18400079, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/fedora-modular-release?#3d5e20b728345a2ac7b61635369c0c0e00d6e567", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "fedora-modular-release", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:46:36.753802", 
+            "start_ts": 1489596396.7538, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "fedora-modular-release", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "fedora-modular-release-26-2.module_60a31d5b.src.rpm", 
+            "version": "26"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:21:09.983955", 
+            "completion_ts": 1489602069.98395, 
+            "create_time": "2017-03-15 18:15:35.069743", 
+            "create_ts": 1489601735.06974, 
+            "host_id": 83, 
+            "id": 18401423, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libidn2?#8cc88118114581de27de1a07a935e95a3e26d104", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libidn2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:15:37.569176", 
+            "start_ts": 1489601737.56918, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libidn2", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libidn2-0.16-2.module_60a31d5b.src.rpm", 
+            "version": "0.16"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:34:04.232748", 
+            "completion_ts": 1489602844.23275, 
+            "create_time": "2017-03-15 18:25:59.77977", 
+            "create_ts": 1489602359.77977, 
+            "host_id": 84, 
+            "id": 18401497, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/librepo?#372bbc1d15e4a53309229619aa763030d2ebd24d", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "librepo", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:26:01.015644", 
+            "start_ts": 1489602361.01564, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "librepo", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "librepo-1.7.20-3.module_60a31d5b.src.rpm", 
+            "version": "1.7.20"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:33:22.223469", 
+            "completion_ts": 1489602802.22347, 
+            "create_time": "2017-03-15 18:16:17.550155", 
+            "create_ts": 1489601777.55015, 
+            "host_id": 68, 
+            "id": 18401425, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/openldap?#8575fd0248ab0283ec3664c9168fbf218f44b9eb", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "openldap", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:16:17.816228", 
+            "start_ts": 1489601777.81623, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "openldap", 
+            "release": "8.module_60a31d5b", 
+            "source_rpm": "openldap-2.4.44-8.module_60a31d5b.src.rpm", 
+            "version": "2.4.44"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:21:55.926433", 
+            "completion_ts": 1489591315.92643, 
+            "create_time": "2017-03-15 15:16:42.687558", 
+            "create_ts": 1489591002.68756, 
+            "host_id": 100, 
+            "id": 18398011, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libsigsegv?#0bca2e2c40a26940b5a1787e03d97dd11f369bb6", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libsigsegv", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:16:43.056061", 
+            "start_ts": 1489591003.05606, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libsigsegv", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "libsigsegv-2.11-1.module_60a31d5b.src.rpm", 
+            "version": "2.11"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:59:41.446083", 
+            "completion_ts": 1489604381.44608, 
+            "create_time": "2017-03-15 18:33:00.446451", 
+            "create_ts": 1489602780.44645, 
+            "host_id": 232, 
+            "id": 18401671, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/e2fsprogs?#55a0c09e0e30ab1fb7306bc48f5842f08d58201d", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "e2fsprogs", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:33:00.741363", 
+            "start_ts": 1489602780.74136, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libcom_err", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "e2fsprogs-1.43.4-2.module_60a31d5b.src.rpm", 
+            "version": "1.43.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:32:56.61972", 
+            "completion_ts": 1489602776.61972, 
+            "create_time": "2017-03-15 18:01:11.067574", 
+            "create_ts": 1489600871.06757, 
+            "host_id": 236, 
+            "id": 18401281, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/pam?#26153ac92dac511944f869f8962052361c064d11", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "pam", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:01:11.630123", 
+            "start_ts": 1489600871.63012, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "pam", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "pam-1.3.0-1.module_60a31d5b.src.rpm", 
+            "version": "1.3.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:38:48.955106", 
+            "completion_ts": 1489599528.95511, 
+            "create_time": "2017-03-15 17:03:59.513926", 
+            "create_ts": 1489597439.51393, 
+            "host_id": 238, 
+            "id": 18400551, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/sqlite?#e1d4f821fc02f20cf66dc9addba44ccb13f989ff", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "sqlite", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:03:59.948941", 
+            "start_ts": 1489597439.94894, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "sqlite-libs", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "sqlite-3.17.0-1.module_60a31d5b.src.rpm", 
+            "version": "3.17.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-17 10:28:40.813714", 
+            "completion_ts": 1489746520.81371, 
+            "create_time": "2017-03-17 10:03:51.7004", 
+            "create_ts": 1489745031.7004, 
+            "host_id": 86, 
+            "id": 18429762, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/curl?#c1fbf35cce059de5f08a41efd4ee8290e92f9500", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "curl", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-17 10:03:52.677721", 
+            "start_ts": 1489745032.67772, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libcurl", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "curl-7.53.1-1.module_60a31d5b.src.rpm", 
+            "version": "7.53.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:43:04.457225", 
+            "completion_ts": 1489596184.45723, 
+            "create_time": "2017-03-15 16:35:45.882926", 
+            "create_ts": 1489595745.88293, 
+            "host_id": 226, 
+            "id": 18399713, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libpsl?#76ef0f56ec9d386fc981462fccc4338f987bc4d6", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libpsl", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:35:47.594385", 
+            "start_ts": 1489595747.59438, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libpsl", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libpsl-0.17.0-2.module_60a31d5b.src.rpm", 
+            "version": "0.17.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:47:16.04571", 
+            "completion_ts": 1489600036.04571, 
+            "create_time": "2017-03-15 17:41:48.654101", 
+            "create_ts": 1489599708.6541, 
+            "host_id": 100, 
+            "id": 18401078, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/chkconfig?#e82efb8130cfda6d6e1d255f5c9a2b70fb527249", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "chkconfig", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:41:48.891038", 
+            "start_ts": 1489599708.89104, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "chkconfig", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "chkconfig-1.9-1.module_60a31d5b.src.rpm", 
+            "version": "1.9"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:26:36.004787", 
+            "completion_ts": 1489591596.00479, 
+            "create_time": "2017-03-15 15:17:49.692073", 
+            "create_ts": 1489591069.69207, 
+            "host_id": 228, 
+            "id": 18398071, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libselinux?#2f333570bbd3423db3c3bfa67065273262a02853", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libselinux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:17:49.926678", 
+            "start_ts": 1489591069.92668, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libselinux", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libselinux-2.6-2.module_60a31d5b.src.rpm", 
+            "version": "2.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:02:48.987596", 
+            "completion_ts": 1489590168.9876, 
+            "create_time": "2017-03-15 14:47:57.409015", 
+            "create_ts": 1489589277.40901, 
+            "host_id": 71, 
+            "id": 18396776, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/util-linux?#04f1d57f74fd4738d2c462a2302031bc92a186b9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "util-linux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:59.926971", 
+            "start_ts": 1489589279.92697, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libsmartcols", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "util-linux-2.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "2.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:59:47.225751", 
+            "completion_ts": 1489593587.22575, 
+            "create_time": "2017-03-15 15:35:02.103862", 
+            "create_ts": 1489592102.10386, 
+            "host_id": 85, 
+            "id": 18398711, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gawk?#63f2ac8ac41274519602f03ef1f718ae0b2c8e4d", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gawk", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:35:02.633971", 
+            "start_ts": 1489592102.63397, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gawk", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "gawk-4.1.4-3.module_60a31d5b.src.rpm", 
+            "version": "4.1.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:26:02.089791", 
+            "completion_ts": 1489602362.08979, 
+            "create_time": "2017-03-15 18:03:01.203707", 
+            "create_ts": 1489600981.20371, 
+            "host_id": 154, 
+            "id": 18401329, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libdb?#607172865e43570dde11c1f49de14474f47e837a", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libdb", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:03:02.000723", 
+            "start_ts": 1489600982.00072, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libdb", 
+            "release": "17.module_60a31d5b", 
+            "source_rpm": "libdb-5.3.28-17.module_60a31d5b.src.rpm", 
+            "version": "5.3.28"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:04:22.60951", 
+            "completion_ts": 1489597462.60951, 
+            "create_time": "2017-03-15 17:01:20.676215", 
+            "create_ts": 1489597280.67621, 
+            "host_id": 208, 
+            "id": 18400440, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/publicsuffix-list?#fdc1a224fe1ac65605c822d28e1dad6c3721365f", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "publicsuffix-list", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:01:22.047708", 
+            "start_ts": 1489597282.04771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "publicsuffix-list-dafsa", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "publicsuffix-list-20170206-1.module_60a31d5b.src.rpm", 
+            "version": "20170206"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:50:49.452752", 
+            "completion_ts": 1489593049.45275, 
+            "create_time": "2017-03-15 15:41:42.224146", 
+            "create_ts": 1489592502.22415, 
+            "host_id": 245, 
+            "id": 18398962, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libsolv?#f19d6435d8e4f7582e312ac9b1094552b20a574e", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libsolv", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:41:44.671323", 
+            "start_ts": 1489592504.67132, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libsolv", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "libsolv-0.6.26-1.module_60a31d5b.src.rpm", 
+            "version": "0.6.26"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:11:51.930709", 
+            "completion_ts": 1489594311.93071, 
+            "create_time": "2017-03-15 15:42:45.133358", 
+            "create_ts": 1489592565.13336, 
+            "host_id": 147, 
+            "id": 18398994, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/openssl?#f6b0040c3ee44a000cd4e3f8ec89af3e1f82e026", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "openssl", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:42:48.811766", 
+            "start_ts": 1489592568.81177, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "openssl-libs", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "openssl-1.1.0d-3.module_60a31d5b.src.rpm", 
+            "version": "1.1.0d"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:09:34.69524", 
+            "completion_ts": 1489590574.69524, 
+            "create_time": "2017-03-15 14:57:27.726683", 
+            "create_ts": 1489589847.72668, 
+            "host_id": 157, 
+            "id": 18397164, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/p11-kit?#0c916b4a1553c77004893d511e162cde054031ff", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "p11-kit", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:57:28.201618", 
+            "start_ts": 1489589848.20162, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "p11-kit", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "p11-kit-0.23.4-3.module_60a31d5b.src.rpm", 
+            "version": "0.23.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 21:03:14.785902", 
+            "completion_ts": 1489611794.7859, 
+            "create_time": "2017-03-15 18:42:44.038155", 
+            "create_ts": 1489603364.03816, 
+            "host_id": 276, 
+            "id": 18401775, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/glibc?#aa4db12ee0fdab90446eb9676800c5f6399c0813", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "glibc", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:42:44.307343", 
+            "start_ts": 1489603364.30734, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "glibc", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "glibc-2.25-1.module_60a31d5b.src.rpm", 
+            "version": "2.25"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:52:59.330832", 
+            "completion_ts": 1489596779.33083, 
+            "create_time": "2017-03-15 16:41:02.284532", 
+            "create_ts": 1489596062.28453, 
+            "host_id": 75, 
+            "id": 18399835, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libdnf?#eee582b9435a007bc4e0da844df030461da8ee12", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libdnf", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:41:03.376271", 
+            "start_ts": 1489596063.37627, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libdnf", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "libdnf-0.7.4-1.module_60a31d5b.src.rpm", 
+            "version": "0.7.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:03:37.291015", 
+            "completion_ts": 1489590217.29101, 
+            "create_time": "2017-03-15 14:57:42.086663", 
+            "create_ts": 1489589862.08666, 
+            "host_id": 85, 
+            "id": 18397171, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nspr?#8a7072a3bc41b0e68f41731ff7560c1d06f26b60", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nspr", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:57:43.979013", 
+            "start_ts": 1489589863.97901, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nspr", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nspr-4.13.1-2.module_60a31d5b.src.rpm", 
+            "version": "4.13.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 21:03:14.785902", 
+            "completion_ts": 1489611794.7859, 
+            "create_time": "2017-03-15 18:42:44.038155", 
+            "create_ts": 1489603364.03816, 
+            "host_id": 276, 
+            "id": 18401775, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/glibc?#aa4db12ee0fdab90446eb9676800c5f6399c0813", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "glibc", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:42:44.307343", 
+            "start_ts": 1489603364.30734, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libcrypt", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "glibc-2.25-1.module_60a31d5b.src.rpm", 
+            "version": "2.25"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:35:40.348274", 
+            "completion_ts": 1489595740.34827, 
+            "create_time": "2017-03-15 16:29:50.737713", 
+            "create_ts": 1489595390.73771, 
+            "host_id": 89, 
+            "id": 18399666, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/cracklib?#2edb3e61e337926a92d56ffe84bd8cdb0f625586", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "cracklib", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:29:52.861708", 
+            "start_ts": 1489595392.86171, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "cracklib", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "cracklib-2.9.6-5.module_60a31d5b.src.rpm", 
+            "version": "2.9.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:53:20.962174", 
+            "completion_ts": 1489596800.96217, 
+            "create_time": "2017-03-15 16:48:46.843156", 
+            "create_ts": 1489596526.84316, 
+            "host_id": 75, 
+            "id": 18400223, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/setup?#338c72bc4e4fc6fa950f899bf4253b32de1dff60", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "setup", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:48:48.260408", 
+            "start_ts": 1489596528.26041, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "setup", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "setup-2.10.5-2.module_60a31d5b.src.rpm", 
+            "version": "2.10.5"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:28:53.056709", 
+            "completion_ts": 1489595333.05671, 
+            "create_time": "2017-03-15 16:22:51.122607", 
+            "create_ts": 1489594971.12261, 
+            "host_id": 86, 
+            "id": 18399590, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libverto?#521cea8b5a829197c1f6a55f605fc4b995b5184e", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libverto", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:22:52.747114", 
+            "start_ts": 1489594972.74711, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libverto", 
+            "release": "7.module_60a31d5b", 
+            "source_rpm": "libverto-0.2.6-7.module_60a31d5b.src.rpm", 
+            "version": "0.2.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:23:23.038739", 
+            "completion_ts": 1489591403.03874, 
+            "create_time": "2017-03-15 15:15:44.811226", 
+            "create_ts": 1489590944.81123, 
+            "host_id": 75, 
+            "id": 18397983, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/sed?#575a3ba668dd1ad996ca088e7efee9a522e94947", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "sed", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:15:45.096959", 
+            "start_ts": 1489590945.09696, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "sed", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "sed-4.4-1.module_60a31d5b.src.rpm", 
+            "version": "4.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-17 10:28:40.813714", 
+            "completion_ts": 1489746520.81371, 
+            "create_time": "2017-03-17 10:03:51.7004", 
+            "create_ts": 1489745031.7004, 
+            "host_id": 86, 
+            "id": 18429762, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/curl?#c1fbf35cce059de5f08a41efd4ee8290e92f9500", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "curl", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-17 10:03:52.677721", 
+            "start_ts": 1489745032.67772, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "curl", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "curl-7.53.1-1.module_60a31d5b.src.rpm", 
+            "version": "7.53.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:28:32.761193", 
+            "completion_ts": 1489602512.76119, 
+            "create_time": "2017-03-15 18:21:13.951035", 
+            "create_ts": 1489602073.95104, 
+            "host_id": 89, 
+            "id": 18401465, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libmetalink?#14d998a17d45a384c2b9391536b3294efaeb6390", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libmetalink", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:21:16.474047", 
+            "start_ts": 1489602076.47405, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libmetalink", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libmetalink-0.1.3-2.module_60a31d5b.src.rpm", 
+            "version": "0.1.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 19:07:23.327018", 
+            "completion_ts": 1489604843.32702, 
+            "create_time": "2017-03-15 16:10:29.63006", 
+            "create_ts": 1489594229.63006, 
+            "host_id": 60, 
+            "id": 18399361, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss?#65a4d20cc7bbd7eb0c9672c2480745ae642d7027", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:10:30.108918", 
+            "start_ts": 1489594230.10892, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss-sysinit", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nss-3.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "3.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:49:26.788184", 
+            "completion_ts": 1489592966.78818, 
+            "create_time": "2017-03-15 15:25:27.09342", 
+            "create_ts": 1489591527.09342, 
+            "host_id": 200, 
+            "id": 18398348, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/shadow-utils?#ba9340caf5a3f86043659dd5dc83d9280cd38185", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "shadow-utils", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:25:27.818685", 
+            "start_ts": 1489591527.81869, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "shadow-utils", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "shadow-utils-4.3.1-3.module_60a31d5b.src.rpm", 
+            "version": "4.3.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:42:41.024171", 
+            "completion_ts": 1489592561.02417, 
+            "create_time": "2017-03-15 15:33:39.856081", 
+            "create_ts": 1489592019.85608, 
+            "host_id": 226, 
+            "id": 18398654, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/cyrus-sasl?#ca0c11d6a74ee746ee85af440541bf9b6647afca", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "cyrus-sasl", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:33:40.511713", 
+            "start_ts": 1489592020.51171, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "cyrus-sasl-lib", 
+            "release": "28.module_60a31d5b", 
+            "source_rpm": "cyrus-sasl-2.1.26-28.module_60a31d5b.src.rpm", 
+            "version": "2.1.26"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:22:46.262437", 
+            "completion_ts": 1489594966.26244, 
+            "create_time": "2017-03-15 16:11:29.743717", 
+            "create_ts": 1489594289.74372, 
+            "host_id": 154, 
+            "id": 18399369, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/rpm?#b50c8542c204f2d8950d04e5dd0b1becdefc8f0e", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "rpm", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:11:31.19771", 
+            "start_ts": 1489594291.19771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "rpm", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "rpm-4.13.0.1-3.module_60a31d5b.src.rpm", 
+            "version": "4.13.0.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:22:49.01587", 
+            "completion_ts": 1489587769.01587, 
+            "create_time": "2017-03-15 14:17:22.143712", 
+            "create_ts": 1489587442.14371, 
+            "host_id": 226, 
+            "id": 18395943, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/lz4?#410f4d8eb691a4c8116fce00af6b65e05db762e3", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "lz4", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:17:23.355306", 
+            "start_ts": 1489587443.35531, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "lz4", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "lz4-1.7.5-2.module_60a31d5b.src.rpm", 
+            "version": "1.7.5"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:12:22.638716", 
+            "completion_ts": 1489594342.63872, 
+            "create_time": "2017-03-15 16:05:25.504269", 
+            "create_ts": 1489593925.50427, 
+            "host_id": 243, 
+            "id": 18399286, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/xz?#c27811574cdf7de35217ea27b8add4c0130de53e", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "xz", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:05:25.96486", 
+            "start_ts": 1489593925.96486, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "xz-libs", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "xz-5.2.3-2.module_60a31d5b.src.rpm", 
+            "version": "5.2.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:35:48.625716", 
+            "completion_ts": 1489595748.62572, 
+            "create_time": "2017-03-15 16:19:55.307057", 
+            "create_ts": 1489594795.30706, 
+            "host_id": 157, 
+            "id": 18399530, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gnupg2?#37328e794396f405c0342d26116c59d51a6bd769", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gnupg2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:20:02.245678", 
+            "start_ts": 1489594802.24568, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gnupg2", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "gnupg2-2.1.17-3.module_60a31d5b.src.rpm", 
+            "version": "2.1.17"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:32:13.070156", 
+            "completion_ts": 1489595533.07016, 
+            "create_time": "2017-03-15 16:21:45.008426", 
+            "create_ts": 1489594905.00843, 
+            "host_id": 84, 
+            "id": 18399564, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nghttp2?#3733e4c67685f54e5f352837c0905150af2e5c29", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nghttp2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:21:45.419708", 
+            "start_ts": 1489594905.41971, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libnghttp2", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "nghttp2-1.20.0-1.module_60a31d5b.src.rpm", 
+            "version": "1.20.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:23:52.655909", 
+            "completion_ts": 1489591432.65591, 
+            "create_time": "2017-03-15 14:22:51.981487", 
+            "create_ts": 1489587771.98149, 
+            "host_id": 86, 
+            "id": 18396296, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/systemd?#4877912f6e8284d80e7b88a76df3433c855385d7", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "systemd", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:22:56.50579", 
+            "start_ts": 1489587776.50579, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "systemd-libs", 
+            "release": "15.module_60a31d5b", 
+            "source_rpm": "systemd-232-15.module_60a31d5b.src.rpm", 
+            "version": "232"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:20:29.886447", 
+            "completion_ts": 1489594829.88645, 
+            "create_time": "2017-03-15 16:13:37.912808", 
+            "create_ts": 1489594417.91281, 
+            "host_id": 200, 
+            "id": 18399411, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libssh2?#e44a6af4ac5f823db5654f18f7db7cf9f1b176d9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libssh2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:13:38.539472", 
+            "start_ts": 1489594418.53947, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libssh2", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libssh2-1.8.0-2.module_60a31d5b.src.rpm", 
+            "version": "1.8.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:02:56.678251", 
+            "completion_ts": 1489600976.67825, 
+            "create_time": "2017-03-15 17:58:34.868709", 
+            "create_ts": 1489600714.86871, 
+            "host_id": 245, 
+            "id": 18401239, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libcap?#f17ad4c828018a730449494514a33150cf5d520b", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libcap", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:58:35.937916", 
+            "start_ts": 1489600715.93792, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libcap", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "libcap-2.25-5.module_60a31d5b.src.rpm", 
+            "version": "2.25"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:02:48.987596", 
+            "completion_ts": 1489590168.9876, 
+            "create_time": "2017-03-15 14:47:57.409015", 
+            "create_ts": 1489589277.40901, 
+            "host_id": 71, 
+            "id": 18396776, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/util-linux?#04f1d57f74fd4738d2c462a2302031bc92a186b9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "util-linux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:59.926971", 
+            "start_ts": 1489589279.92697, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libblkid", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "util-linux-2.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "2.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:52:58.700319", 
+            "completion_ts": 1489596778.70032, 
+            "create_time": "2017-03-15 16:42:57.056774", 
+            "create_ts": 1489596177.05677, 
+            "host_id": 154, 
+            "id": 18399874, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/grep?#c232695f408106307c43b2954c732a5a6bb352ba", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "grep", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:42:57.389714", 
+            "start_ts": 1489596177.38971, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "grep", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "grep-3.0-1.module_60a31d5b.src.rpm", 
+            "version": "3.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:02:48.987596", 
+            "completion_ts": 1489590168.9876, 
+            "create_time": "2017-03-15 14:47:57.409015", 
+            "create_ts": 1489589277.40901, 
+            "host_id": 71, 
+            "id": 18396776, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/util-linux?#04f1d57f74fd4738d2c462a2302031bc92a186b9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "util-linux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:59.926971", 
+            "start_ts": 1489589279.92697, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libmount", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "util-linux-2.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "2.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:17:51.3241", 
+            "completion_ts": 1489594671.3241, 
+            "create_time": "2017-03-15 16:11:55.643569", 
+            "create_ts": 1489594315.64357, 
+            "host_id": 62, 
+            "id": 18399375, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/readline?#af6675659ad82a7f43af4e35f400e4bbdbae6d49", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "readline", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:11:56.108161", 
+            "start_ts": 1489594316.10816, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "readline", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "readline-7.0-5.module_60a31d5b.src.rpm", 
+            "version": "7.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:55:50.430681", 
+            "completion_ts": 1489596950.43068, 
+            "create_time": "2017-03-15 16:50:18.701707", 
+            "create_ts": 1489596618.70171, 
+            "host_id": 72, 
+            "id": 18400263, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/zlib?#9f014e30021753dbf9ee115487fcfa9d3f0fbc0a", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "zlib", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:50:21.656777", 
+            "start_ts": 1489596621.65678, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "zlib", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "zlib-1.2.11-2.module_60a31d5b.src.rpm", 
+            "version": "1.2.11"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:10:08.119963", 
+            "completion_ts": 1489597808.11996, 
+            "create_time": "2017-03-15 17:04:17.896604", 
+            "create_ts": 1489597457.8966, 
+            "host_id": 276, 
+            "id": 18400588, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libassuan?#7e26da2408be409d2791b8fa0033f0443181798a", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libassuan", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:04:19.237442", 
+            "start_ts": 1489597459.23744, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libassuan", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libassuan-2.4.3-2.module_60a31d5b.src.rpm", 
+            "version": "2.4.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:45:58.854253", 
+            "completion_ts": 1489603558.85425, 
+            "create_time": "2017-03-15 18:37:43.877305", 
+            "create_ts": 1489603063.87731, 
+            "host_id": 83, 
+            "id": 18401716, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/filesystem?#ed1bc54acfa044b782ecbed596311d79db7a9c8a", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "filesystem", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:37:44.274816", 
+            "start_ts": 1489603064.27482, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "filesystem", 
+            "release": "40.module_60a31d5b", 
+            "source_rpm": "filesystem-3.2-40.module_60a31d5b.src.rpm", 
+            "version": "3.2"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:23:07.630702", 
+            "completion_ts": 1489587787.6307, 
+            "create_time": "2017-03-15 14:17:25.243303", 
+            "create_ts": 1489587445.2433, 
+            "host_id": 212, 
+            "id": 18395951, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/popt?#d9302725fdbde901827f2677d06765394ad5ad92", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "popt", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:17:27.622184", 
+            "start_ts": 1489587447.62218, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "popt", 
+            "release": "8.module_60a31d5b", 
+            "source_rpm": "popt-1.16-8.module_60a31d5b.src.rpm", 
+            "version": "1.16"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:49:19.317074", 
+            "completion_ts": 1489589359.31707, 
+            "create_time": "2017-03-15 14:32:37.524999", 
+            "create_ts": 1489588357.525, 
+            "host_id": 63, 
+            "id": 18396564, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gmp?#984d6a82530abc7c183de9b66bb71da2afeb94c6", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gmp", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:32:39.791546", 
+            "start_ts": 1489588359.79155, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gmp", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "gmp-6.1.2-3.module_60a31d5b.src.rpm", 
+            "version": "6.1.2"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:42:40.200261", 
+            "completion_ts": 1489603360.20026, 
+            "create_time": "2017-03-15 18:33:25.934709", 
+            "create_ts": 1489602805.93471, 
+            "host_id": 67, 
+            "id": 18401679, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nettle?#c3f0481ad7c462e298c3f85fc692059275077806", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nettle", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:33:26.175386", 
+            "start_ts": 1489602806.17539, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nettle", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nettle-3.3-2.module_60a31d5b.src.rpm", 
+            "version": "3.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:31:42.75046", 
+            "completion_ts": 1489591902.75046, 
+            "create_time": "2017-03-15 15:23:56.684264", 
+            "create_ts": 1489591436.68426, 
+            "host_id": 158, 
+            "id": 18398253, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libgpg-error?#a7b12bf545320fd71f2f7d319ac200ee5d8ab02c", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libgpg-error", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:23:59.035754", 
+            "start_ts": 1489591439.03575, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libgpg-error", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libgpg-error-1.25-2.module_60a31d5b.src.rpm", 
+            "version": "1.25"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:27:04.613837", 
+            "completion_ts": 1489602424.61384, 
+            "create_time": "2017-03-15 18:21:39.11406", 
+            "create_ts": 1489602099.11406, 
+            "host_id": 67, 
+            "id": 18401469, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libffi?#2455877bfe4cab9dd9eaf206cb5bcb44804a0a1c", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libffi", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:21:41.38862", 
+            "start_ts": 1489602101.38862, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libffi", 
+            "release": "10.module_60a31d5b", 
+            "source_rpm": "libffi-3.1-10.module_60a31d5b.src.rpm", 
+            "version": "3.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 21:03:14.785902", 
+            "completion_ts": 1489611794.7859, 
+            "create_time": "2017-03-15 18:42:44.038155", 
+            "create_ts": 1489603364.03816, 
+            "host_id": 276, 
+            "id": 18401775, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/glibc?#aa4db12ee0fdab90446eb9676800c5f6399c0813", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "glibc", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:42:44.307343", 
+            "start_ts": 1489603364.30734, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "glibc-minimal-langpack", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "glibc-2.25-1.module_60a31d5b.src.rpm", 
+            "version": "2.25"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:16:37.513784", 
+            "completion_ts": 1489590997.51378, 
+            "create_time": "2017-03-15 14:47:36.257317", 
+            "create_ts": 1489589256.25732, 
+            "host_id": 83, 
+            "id": 18396764, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gnutls?#f6ef868928f178f4c5e531dc46f44317042279a8", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gnutls", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:37.478029", 
+            "start_ts": 1489589257.47803, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gnutls", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "gnutls-3.5.9-2.module_60a31d5b.src.rpm", 
+            "version": "3.5.9"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:16:26.99158", 
+            "completion_ts": 1489594586.99158, 
+            "create_time": "2017-03-15 15:55:42.730095", 
+            "create_ts": 1489593342.73009, 
+            "host_id": 65, 
+            "id": 18399186, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/glib2?#521a0af72d2c1ed7a01e4d9085f1ce4db7179ecf", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "glib2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:55:43.161707", 
+            "start_ts": 1489593343.16171, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "glib2", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "glib2-2.51.2-1.module_60a31d5b.src.rpm", 
+            "version": "2.51.2"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:05:22.99219", 
+            "completion_ts": 1489597522.99219, 
+            "create_time": "2017-03-15 16:53:25.887933", 
+            "create_ts": 1489596805.88793, 
+            "host_id": 230, 
+            "id": 18400287, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libpeas?#f479ecc4041fb2b836b1270b9d117f3ffed12e1f", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libpeas", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:53:26.228704", 
+            "start_ts": 1489596806.2287, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libpeas", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "libpeas-1.20.0-5.module_60a31d5b.src.rpm", 
+            "version": "1.20.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:52:53.587392", 
+            "completion_ts": 1489600373.58739, 
+            "create_time": "2017-03-15 17:30:17.569461", 
+            "create_ts": 1489599017.56946, 
+            "host_id": 203, 
+            "id": 18400983, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libarchive?#b051042a1b5c6feff1e42b80ca7a2d6833b432a3", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libarchive", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:30:18.053262", 
+            "start_ts": 1489599018.05326, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libarchive", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "libarchive-3.2.2-3.module_60a31d5b.src.rpm", 
+            "version": "3.2.2"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:01:03.297534", 
+            "completion_ts": 1489600863.29753, 
+            "create_time": "2017-03-15 17:55:12.66671", 
+            "create_ts": 1489600512.66671, 
+            "host_id": 84, 
+            "id": 18401214, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libcap-ng?#a7b3901d3112e947ac2060b9fc82bc9d3a4d49f0", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libcap-ng", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:55:13.241707", 
+            "start_ts": 1489600513.24171, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libcap-ng", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "libcap-ng-0.7.8-3.module_60a31d5b.src.rpm", 
+            "version": "0.7.8"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:38:43.573625", 
+            "completion_ts": 1489603123.57363, 
+            "create_time": "2017-03-15 18:27:09.652427", 
+            "create_ts": 1489602429.65243, 
+            "host_id": 158, 
+            "id": 18401502, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/audit?#1627ca5b6c1b796875f161791ec4b5b6a9c5c8bf", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "audit", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:27:11.09094", 
+            "start_ts": 1489602431.09094, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "audit-libs", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "audit-2.7.3-1.module_60a31d5b.src.rpm", 
+            "version": "2.7.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:32:28.600467", 
+            "completion_ts": 1489588348.60047, 
+            "create_time": "2017-03-15 14:26:01.823763", 
+            "create_ts": 1489587961.82376, 
+            "host_id": 244, 
+            "id": 18396427, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/crypto-policies?#6833733d6a6a74050f9b6c8d36ba253be82e2ef4", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "crypto-policies", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:26:02.877058", 
+            "start_ts": 1489587962.87706, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "crypto-policies", 
+            "release": "2.gitf3018dd.module_60a31d5b", 
+            "source_rpm": "crypto-policies-20170214-2.gitf3018dd.module_60a31d5b.src.rpm", 
+            "version": "20170214"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:37:39.881903", 
+            "completion_ts": 1489603059.8819, 
+            "create_time": "2017-03-15 18:28:36.662214", 
+            "create_ts": 1489602516.66221, 
+            "host_id": 159, 
+            "id": 18401641, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/ustr?#18c0ac45798d46e511baa373b01b718fb14afd3c", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "ustr", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:28:40.081186", 
+            "start_ts": 1489602520.08119, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "ustr", 
+            "release": "22.module_60a31d5b", 
+            "source_rpm": "ustr-1.0.4-22.module_60a31d5b.src.rpm", 
+            "version": "1.0.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:32:36.218969", 
+            "completion_ts": 1489591956.21897, 
+            "create_time": "2017-03-15 15:21:59.972552", 
+            "create_ts": 1489591319.97255, 
+            "host_id": 214, 
+            "id": 18398182, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/elfutils?#10270ba914bcfdd498ebdf17bb3425d8d1313aa9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "elfutils", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:22:00.443709", 
+            "start_ts": 1489591320.44371, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "elfutils-libelf", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "elfutils-0.168-5.module_60a31d5b.src.rpm", 
+            "version": "0.168"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:04:13.433058", 
+            "completion_ts": 1489597453.43306, 
+            "create_time": "2017-03-15 16:56:59.748688", 
+            "create_ts": 1489597019.74869, 
+            "host_id": 244, 
+            "id": 18400327, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libsemanage?#513da381ab98a69f2c360fa8b54beadde97a9ffb", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libsemanage", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:57:02.063711", 
+            "start_ts": 1489597022.06371, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libsemanage", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libsemanage-2.6-2.module_60a31d5b.src.rpm", 
+            "version": "2.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:01:19.082944", 
+            "completion_ts": 1489597279.08294, 
+            "create_time": "2017-03-15 16:55:56.215235", 
+            "create_ts": 1489596956.21523, 
+            "host_id": 82, 
+            "id": 18400325, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss-util?#190b24bc092bcc24f1b8a550b4d1027181de331f", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss-util", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:55:58.82771", 
+            "start_ts": 1489596958.82771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss-util", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nss-util-3.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "3.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:02:48.987596", 
+            "completion_ts": 1489590168.9876, 
+            "create_time": "2017-03-15 14:47:57.409015", 
+            "create_ts": 1489589277.40901, 
+            "host_id": 71, 
+            "id": 18396776, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/util-linux?#04f1d57f74fd4738d2c462a2302031bc92a186b9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "util-linux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:59.926971", 
+            "start_ts": 1489589279.92697, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libfdisk", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "util-linux-2.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "2.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 19:07:23.327018", 
+            "completion_ts": 1489604843.32702, 
+            "create_time": "2017-03-15 16:10:29.63006", 
+            "create_ts": 1489594229.63006, 
+            "host_id": 60, 
+            "id": 18399361, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss?#65a4d20cc7bbd7eb0c9672c2480745ae642d7027", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:10:30.108918", 
+            "start_ts": 1489594230.10892, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss-softokn-freebl", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nss-softokn-3.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "3.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:58:35.903092", 
+            "completion_ts": 1489589915.90309, 
+            "create_time": "2017-03-15 14:53:14.315983", 
+            "create_ts": 1489589594.31598, 
+            "host_id": 159, 
+            "id": 18396946, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/npth?#2333696ca8fe50890aa1627319aef56c72205e79", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "npth", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:53:15.334509", 
+            "start_ts": 1489589595.33451, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "npth", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "npth-1.3-2.module_60a31d5b.src.rpm", 
+            "version": "1.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:22:09.269293", 
+            "completion_ts": 1489587729.26929, 
+            "create_time": "2017-03-15 14:17:19.940277", 
+            "create_ts": 1489587439.94028, 
+            "host_id": 79, 
+            "id": 18395935, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/keyutils?#bc1c9f9084d5c00200f22576448758a90f159a6a", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "keyutils", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:17:20.339019", 
+            "start_ts": 1489587440.33902, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "keyutils-libs", 
+            "release": "9.module_60a31d5b", 
+            "source_rpm": "keyutils-1.5.9-9.module_60a31d5b.src.rpm", 
+            "version": "1.5.9"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:22:46.262437", 
+            "completion_ts": 1489594966.26244, 
+            "create_time": "2017-03-15 16:11:29.743717", 
+            "create_ts": 1489594289.74372, 
+            "host_id": 154, 
+            "id": 18399369, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/rpm?#b50c8542c204f2d8950d04e5dd0b1becdefc8f0e", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "rpm", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:11:31.19771", 
+            "start_ts": 1489594291.19771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "rpm-libs", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "rpm-4.13.0.1-3.module_60a31d5b.src.rpm", 
+            "version": "4.13.0.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:25:06.134789", 
+            "completion_ts": 1489595106.13479, 
+            "create_time": "2017-03-15 16:20:34.998292", 
+            "create_ts": 1489594834.99829, 
+            "host_id": 237, 
+            "id": 18399537, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/tzdata?#4cdab00b08efdf1ecc673a105e676b871269efc8", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "tzdata", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:20:35.923589", 
+            "start_ts": 1489594835.92359, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "tzdata", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "tzdata-2016j-3.module_60a31d5b.src.rpm", 
+            "version": "2016j"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:35:17.814732", 
+            "completion_ts": 1489599317.81473, 
+            "create_time": "2017-03-15 17:05:26.18652", 
+            "create_ts": 1489597526.18652, 
+            "host_id": 82, 
+            "id": 18400628, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libxml2?#5fda684ac196f90b263658654775c736a6cea3dc", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libxml2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:05:29.756261", 
+            "start_ts": 1489597529.75626, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libxml2", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libxml2-2.9.4-2.module_60a31d5b.src.rpm", 
+            "version": "2.9.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:54:17.055743", 
+            "completion_ts": 1489604057.05574, 
+            "create_time": "2017-03-15 18:44:44.702707", 
+            "create_ts": 1489603484.70271, 
+            "host_id": 81, 
+            "id": 18401783, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/mpfr?#7fe92b13b92156de8af013e794efc4781e71fa6b", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "mpfr", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:44:45.06723", 
+            "start_ts": 1489603485.06723, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "mpfr", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "mpfr-3.1.5-2.module_60a31d5b.src.rpm", 
+            "version": "3.1.5"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:09:34.69524", 
+            "completion_ts": 1489590574.69524, 
+            "create_time": "2017-03-15 14:57:27.726683", 
+            "create_ts": 1489589847.72668, 
+            "host_id": 157, 
+            "id": 18397164, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/p11-kit?#0c916b4a1553c77004893d511e162cde054031ff", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "p11-kit", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:57:28.201618", 
+            "start_ts": 1489589848.20162, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "p11-kit-trust", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "p11-kit-0.23.4-3.module_60a31d5b.src.rpm", 
+            "version": "0.23.4"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:01:15.740932", 
+            "completion_ts": 1489597275.74093, 
+            "create_time": "2017-03-15 16:40:58.134703", 
+            "create_ts": 1489596058.1347, 
+            "host_id": 85, 
+            "id": 18399829, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/ncurses?#7750f0de472f697700b7e92e0a4b9cd68b85f42f", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "ncurses", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:40:58.320765", 
+            "start_ts": 1489596058.32077, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "ncurses-base", 
+            "release": "8.20170212.module_60a31d5b", 
+            "source_rpm": "ncurses-6.0-8.20170212.module_60a31d5b.src.rpm", 
+            "version": "6.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:53:09.856572", 
+            "completion_ts": 1489589589.85657, 
+            "create_time": "2017-03-15 14:45:02.496892", 
+            "create_ts": 1489589102.49689, 
+            "host_id": 73, 
+            "id": 18396711, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/lzo?#f507e1f182375aff98c810c2dde30770c54d1465", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "lzo", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:45:04.450981", 
+            "start_ts": 1489589104.45098, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "lzo", 
+            "release": "9.module_60a31d5b", 
+            "source_rpm": "lzo-2.08-9.module_60a31d5b.src.rpm", 
+            "version": "2.08"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:05:17.306065", 
+            "completion_ts": 1489593917.30607, 
+            "create_time": "2017-03-15 14:20:47.027045", 
+            "create_ts": 1489587647.02705, 
+            "host_id": 155, 
+            "id": 18396154, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gpgme?#cce396ee08e36ea0e414661883490fff628b0d96", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gpgme", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:20:48.980339", 
+            "start_ts": 1489587648.98034, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gpgme", 
+            "release": "12.module_60a31d5b", 
+            "source_rpm": "gpgme-1.8.0-12.module_60a31d5b.src.rpm", 
+            "version": "1.8.0"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:13:45.107762", 
+            "completion_ts": 1489601625.10776, 
+            "create_time": "2017-03-15 18:09:02.160286", 
+            "create_ts": 1489601342.16029, 
+            "host_id": 208, 
+            "id": 18401379, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/bzip2?#3ea5d7bdb1c334d2e6efeb9ec81b8ee8ef13d984", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "bzip2", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:09:03.510875", 
+            "start_ts": 1489601343.51087, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "bzip2-libs", 
+            "release": "22.module_60a31d5b", 
+            "source_rpm": "bzip2-1.0.6-22.module_60a31d5b.src.rpm", 
+            "version": "1.0.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 10, 
+            "completion_time": "2017-03-16 16:02:42.37177", 
+            "completion_ts": 1489680162.37177, 
+            "create_time": "2017-03-15 17:39:17.450525", 
+            "create_ts": 1489599557.45053, 
+            "host_id": 61, 
+            "id": 18401064, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gcc?#4708d93f41eb71da44cd450e18686a67891c0547", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gcc", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:39:18.31771", 
+            "start_ts": 1489599558.31771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libgcc", 
+            "release": "0.10.module_60a31d5b", 
+            "source_rpm": "gcc-7.0.1-0.10.module_60a31d5b.src.rpm", 
+            "version": "7.0.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:01:20.580881", 
+            "completion_ts": 1489593680.58088, 
+            "create_time": "2017-03-15 15:47:36.402963", 
+            "create_ts": 1489592856.40296, 
+            "host_id": 228, 
+            "id": 18399049, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/acl?#1b70d5975cbe16d4fd4e14de4e132e5b8bc39c53", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "acl", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:47:37.053635", 
+            "start_ts": 1489592857.05363, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libacl", 
+            "release": "13.module_60a31d5b", 
+            "source_rpm": "acl-2.2.52-13.module_60a31d5b.src.rpm", 
+            "version": "2.2.52"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 19:07:23.327018", 
+            "completion_ts": 1489604843.32702, 
+            "create_time": "2017-03-15 16:10:29.63006", 
+            "create_ts": 1489594229.63006, 
+            "host_id": 60, 
+            "id": 18399361, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss?#65a4d20cc7bbd7eb0c9672c2480745ae642d7027", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:10:30.108918", 
+            "start_ts": 1489594230.10892, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss-tools", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nss-3.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "3.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:22:46.262437", 
+            "completion_ts": 1489594966.26244, 
+            "create_time": "2017-03-15 16:11:29.743717", 
+            "create_ts": 1489594289.74372, 
+            "host_id": 154, 
+            "id": 18399369, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/rpm?#b50c8542c204f2d8950d04e5dd0b1becdefc8f0e", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "rpm", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:11:31.19771", 
+            "start_ts": 1489594291.19771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "rpm-plugin-selinux", 
+            "release": "3.module_60a31d5b", 
+            "source_rpm": "rpm-4.13.0.1-3.module_60a31d5b.src.rpm", 
+            "version": "4.13.0.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:02:48.987596", 
+            "completion_ts": 1489590168.9876, 
+            "create_time": "2017-03-15 14:47:57.409015", 
+            "create_ts": 1489589277.40901, 
+            "host_id": 71, 
+            "id": 18396776, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/util-linux?#04f1d57f74fd4738d2c462a2302031bc92a186b9", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "util-linux", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:47:59.926971", 
+            "start_ts": 1489589279.92697, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libuuid", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "util-linux-2.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "2.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 21:03:14.785902", 
+            "completion_ts": 1489611794.7859, 
+            "create_time": "2017-03-15 18:42:44.038155", 
+            "create_ts": 1489603364.03816, 
+            "host_id": 276, 
+            "id": 18401775, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/glibc?#aa4db12ee0fdab90446eb9676800c5f6399c0813", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "glibc", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:42:44.307343", 
+            "start_ts": 1489603364.30734, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "glibc-common", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "glibc-2.25-1.module_60a31d5b.src.rpm", 
+            "version": "2.25"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:17:58.983387", 
+            "completion_ts": 1489601878.98339, 
+            "create_time": "2017-03-15 18:12:26.428917", 
+            "create_ts": 1489601546.42892, 
+            "host_id": 203, 
+            "id": 18401396, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libutempter?#0d4613714e458f3c691160032a4b1578a86b5367", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libutempter", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:12:27.22374", 
+            "start_ts": 1489601547.22374, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libutempter", 
+            "release": "9.module_60a31d5b", 
+            "source_rpm": "libutempter-1.1.6-9.module_60a31d5b.src.rpm", 
+            "version": "1.1.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 19:07:23.327018", 
+            "completion_ts": 1489604843.32702, 
+            "create_time": "2017-03-15 16:10:29.63006", 
+            "create_ts": 1489594229.63006, 
+            "host_id": 60, 
+            "id": 18399361, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/nss?#65a4d20cc7bbd7eb0c9672c2480745ae642d7027", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "nss", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:10:30.108918", 
+            "start_ts": 1489594230.10892, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "nss", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "nss-3.29.1-2.module_60a31d5b.src.rpm", 
+            "version": "3.29.1"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:39:12.657217", 
+            "completion_ts": 1489599552.65722, 
+            "create_time": "2017-03-15 17:02:35.855271", 
+            "create_ts": 1489597355.85527, 
+            "host_id": 83, 
+            "id": 18400485, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/krb5?#0d08e37340c5276b32dcdcf39c02c577e2102829", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "krb5", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:02:37.217441", 
+            "start_ts": 1489597357.21744, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "krb5-libs", 
+            "release": "6.module_60a31d5b", 
+            "source_rpm": "krb5-1.15-6.module_60a31d5b.src.rpm", 
+            "version": "1.15"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 17:02:31.627609", 
+            "completion_ts": 1489597351.62761, 
+            "create_time": "2017-03-15 16:53:03.333199", 
+            "create_ts": 1489596783.3332, 
+            "host_id": 65, 
+            "id": 18400274, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libtasn1?#47170124b65abe7d2d3c7f9ba8fda5aa615ada92", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libtasn1", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:53:04.537767", 
+            "start_ts": 1489596784.53777, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libtasn1", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "libtasn1-4.10-2.module_60a31d5b.src.rpm", 
+            "version": "4.10"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 16:21:39.914107", 
+            "completion_ts": 1489594899.91411, 
+            "create_time": "2017-03-15 16:12:27.148762", 
+            "create_ts": 1489594347.14876, 
+            "host_id": 81, 
+            "id": 18399396, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/pcre?#c36d2c5e3d4b2d7694db98267eb3ed33e64f86db", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "pcre", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 16:12:27.477709", 
+            "start_ts": 1489594347.47771, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "pcre", 
+            "release": "5.module_60a31d5b", 
+            "source_rpm": "pcre-8.40-5.module_60a31d5b.src.rpm", 
+            "version": "8.40"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:08:58.61171", 
+            "completion_ts": 1489601338.61171, 
+            "create_time": "2017-03-15 18:01:06.070342", 
+            "create_ts": 1489600866.07034, 
+            "host_id": 85, 
+            "id": 18401275, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/microdnf?#13625aae6d2d565110ab614402424544b9905de0", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "microdnf", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:01:06.391674", 
+            "start_ts": 1489600866.39167, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "microdnf", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "microdnf-2-2.module_60a31d5b.src.rpm", 
+            "version": "2"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 14:36:32.366065", 
+            "completion_ts": 1489588592.36607, 
+            "create_time": "2017-03-15 14:22:12.908821", 
+            "create_ts": 1489587732.90882, 
+            "host_id": 232, 
+            "id": 18396236, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gobject-introspection?#8fb1c1de9c8da63aed163ae4d4d61cc2c6b12e77", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gobject-introspection", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 14:22:13.367421", 
+            "start_ts": 1489587733.36742, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gobject-introspection", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "gobject-introspection-1.51.3-1.module_60a31d5b.src.rpm", 
+            "version": "1.51.3"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:15:31.958315", 
+            "completion_ts": 1489601731.95831, 
+            "create_time": "2017-03-15 17:52:58.315299", 
+            "create_ts": 1489600378.3153, 
+            "host_id": 235, 
+            "id": 18401206, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/coreutils?#bc257082406e008d63ca9271390a5bdb65689c3d", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "coreutils", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 17:52:59.277723", 
+            "start_ts": 1489600379.27772, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "coreutils-single", 
+            "release": "7.module_60a31d5b", 
+            "source_rpm": "coreutils-8.26-7.module_60a31d5b.src.rpm", 
+            "version": "8.26"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:55:37.883054", 
+            "completion_ts": 1489593337.88305, 
+            "create_time": "2017-03-15 15:39:47.869335", 
+            "create_ts": 1489592387.86933, 
+            "host_id": 105, 
+            "id": 18398918, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/bash?#04e4ecb3e66000bd0f8af08dc4150fa9febc8656", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "bash", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:39:49.57413", 
+            "start_ts": 1489592389.57413, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "bash", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "bash-4.4.11-2.module_60a31d5b.src.rpm", 
+            "version": "4.4.11"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:41:23.959982", 
+            "completion_ts": 1489603283.95998, 
+            "create_time": "2017-03-15 18:34:08.933197", 
+            "create_ts": 1489602848.9332, 
+            "host_id": 276, 
+            "id": 18401690, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libsepol?#99653f4b762884baef7c64a867ffc0bb4eccb392", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libsepol", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:34:10.46726", 
+            "start_ts": 1489602850.46726, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libsepol", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "libsepol-2.6-1.module_60a31d5b.src.rpm", 
+            "version": "2.6"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 15:30:25.741064", 
+            "completion_ts": 1489591825.74106, 
+            "create_time": "2017-03-15 15:19:27.326413", 
+            "create_ts": 1489591167.32641, 
+            "host_id": 214, 
+            "id": 18398106, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/libunistring?#ee6fd5523361a7764c52116b72d184c1fb02f4ab", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "libunistring", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 15:19:28.249202", 
+            "start_ts": 1489591168.2492, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "libunistring", 
+            "release": "1.module_60a31d5b", 
+            "source_rpm": "libunistring-0.9.7-1.module_60a31d5b.src.rpm", 
+            "version": "0.9.7"
+        }
+    }, 
+    {
+        "build_info": {
+            "arch": "noarch", 
+            "awaited": null, 
+            "channel_id": 1, 
+            "completion_time": "2017-03-15 18:47:21.648065", 
+            "completion_ts": 1489603641.64807, 
+            "create_time": "2017-03-15 18:38:47.415978", 
+            "create_ts": 1489603127.41598, 
+            "host_id": 237, 
+            "id": 18401719, 
+            "label": null, 
+            "method": "build", 
+            "owner": 3819, 
+            "parent": null, 
+            "priority": 30, 
+            "request": [
+                "git://pkgs.fedoraproject.org/rpms/gzip?#cd306eb7f9bfce3b27372269d7b092812c312e9d", 
+                "module-base-runtime-master-20170315134803", 
+                {
+                    "mbs_artifact_name": "gzip", 
+                    "mbs_module_target": "module-base-runtime-master-20170315134803", 
+                    "skip_tag": true
+                }
+            ], 
+            "start_time": "2017-03-15 18:38:47.676311", 
+            "start_ts": 1489603127.67631, 
+            "state": 2, 
+            "waiting": false, 
+            "weight": 0.2
+        }, 
+        "package_info": {
+            "name": "gzip", 
+            "release": "2.module_60a31d5b", 
+            "source_rpm": "gzip-1.8-2.module_60a31d5b.src.rpm", 
+            "version": "1.8"
+        }
+    }
+]
