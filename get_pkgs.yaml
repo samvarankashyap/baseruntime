@@ -25,20 +25,28 @@
       command: "docker exec {{ container }} rpm -qi {{ item }}"
       with_items: "{{ package_list['stdout_lines'] }}"
       register: dep_output
-    - name: All rpms information formatted
-      debug: 
-        msg: "{{ dep_output | format_pkg_output | get_build_info | length }}"
-    - name: All rpms info just the build info
-      set_fact: 
-        rpm_info: "{{ dep_output | format_pkg_output | get_build_info | get_build_from_koji }}"
-    - copy: 
-        content: "{{ rpm_info | to_nice_json }}" 
-        dest: ./pkgout_json.txt
-    - copy:
-        content: "{{ rpm_info | to_nice_yaml }}"
-        dest: ./pkgout_yaml.txt
+      #- name: All rpms information formatted
+      #  debug: 
+      #    msg: "{{ dep_output | format_pkg_output | get_build_info | length }}"
+        #- name: All rpms info just the build info
+        #   set_fact: 
+        #    rpm_info: "{{ dep_output | format_pkg_output | get_build_info | get_build_from_koji }}"
+        #- copy: 
+        #     content: "{{ rpm_info | to_nice_json }}" 
+        #    dest: ./pkgout_json.txt
+        #- copy:
+        #    content: "{{ rpm_info | to_nice_yaml }}"
+        #    dest: ./pkgout_yaml.txt
     - name: "All dependencies"
-      debug:
+      command: "docker exec {{ container }} rpm -qR {{ item }}"
+      with_items: "{{ package_list['stdout_lines'] }}"
+      register: pkg_deps
+    - copy:
+        content: "{{ pkg_deps | format_pkg_output | to_nice_json }}"
+        dest: ./pkg_deps.json
+    - copy:
+        content: "{{ pkg_deps | format_pkg_output| to_nice_json }}"
+        dest: ./pkg_deps.yaml
     - name: "Which dependency needs what"
       debug:
     - name: "Need overlapping dependencies"
