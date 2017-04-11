@@ -28,15 +28,15 @@
     - name: All rpms information formatted
       debug: 
         msg: "{{ dep_output | format_pkg_output | get_build_info | length }}"
-        #    - name: All rpms info just the build info
-        #  set_fact: 
-        #rpm_info: "{{ dep_output | format_pkg_output | get_build_info | get_build_from_koji }}"
-        #   - copy: 
-        #    content: "{{ rpm_info | to_nice_json }}" 
-        #dest: ./pkgout_json.txt
-        #- copy:
-        #content: "{{ rpm_info | to_nice_yaml }}"
-        #dest: ./pkgout_yaml.txt
+    - name: All rpms info just the build info
+      set_fact: 
+        rpm_info: "{{ dep_output | format_pkg_output | get_build_info | get_build_from_koji }}"
+    - copy: 
+        content: "{{ rpm_info | to_nice_json }}" 
+        dest: ./pkgout_json.txt
+    - copy:
+        content: "{{ rpm_info | to_nice_yaml }}"
+        dest: ./pkgout_yaml.txt
     - name: "All dependencies"
       debug:
     - name: "Which dependency needs what"
